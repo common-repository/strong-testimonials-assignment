@@ -1,0 +1,24 @@
+
+/* Post type lists
+---------------------------------------------------------*/
+.assigned-count,
+.assigned-excluded,
+.assigned-link {
+  display: inline-block;
+  margin-right: 0.5em;
+}
+.assigned-excluded {
+  font-style: italic;
+}
+#bulk-edit .title.assignment-exclude-label {
+  width: auto;
+  margin-right: 1em;
+}
+/*
+ * [Remove Filters] button (specificity required)
+ */
+.tablenav .actions.filtered-indicator {
+  padding: 0;
+  margin: 0;
+  height: 32px;
+}

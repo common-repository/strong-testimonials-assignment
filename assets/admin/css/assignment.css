@@ -1,0 +1,30 @@
+
+/* Select2
+---------------------------------------------------------*/
+.wpmtst-assignment {
+  visibility: hidden;
+}
+.select2-results__option[role="treeitem"] {
+  text-indent: 1em;
+}
+select[multiple].wpmtst-assignment {
+  width: 100%;
+}
+/*
+ * in admin list
+ */
+.strong-select2 {
+  display: inline-block;
+}
+.strong-select2 .select2 {
+  margin-top: 1px;
+  margin-right: 6px;
+}
+/*
+ * [Remove Filters] button (specificity required)
+ */
+.tablenav .actions.filtered-indicator {
+  padding: 0;
+  margin: 0;
+  height: 32px;
+}

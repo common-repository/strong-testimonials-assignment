@@ -1,0 +1,12 @@
+
+/* Select2
+---------------------------------------------------------*/
+.wpmtst-assignment {
+  visibility: hidden;
+}
+.select2-results__option[role="treeitem"] {
+  text-indent: 1em;
+}
+select[multiple].wpmtst-assignment {
+  width: 100%;
+}

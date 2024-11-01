@@ -1,0 +1,20 @@
+
+/* Select2
+---------------------------------------------------------*/
+.wpmtst-assignment {
+  visibility: hidden;
+}
+.select2-results__option[role="treeitem"] {
+  text-indent: 1em;
+}
+select[multiple].wpmtst-assignment {
+  width: 100%;
+}
+.strong-select2 span.select2-container {
+  display: block;
+  margin-right: 0;
+}
+/* TODO conflict with _elements.scss:61 */
+.strong-select2 span.selection {
+  display: block !important;
+}

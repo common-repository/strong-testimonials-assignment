@@ -1,0 +1,37 @@
+
+/* Assigned Testimonials meta box
+---------------------------------------------------------*/
+.post-id {
+  color: #999;
+}
+#assigned-testimonials .inside {
+  overflow: auto;
+  max-height: 20.5em;
+  margin-top: 0;
+  padding-bottom: 0;
+}
+#assigned-testimonials .has-input {
+  padding: 0 7px;
+  margin: 13px 0;
+}
+.meta_box_columned {
+  -moz-column-count: 1;
+  -moz-columns: 1;
+  -webkit-columns: 1;
+  columns: 1;
+  /* move margin from <ol> to its container */
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+.meta_box_columned ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+@media only screen and (min-width: 1025px) {
+  #normal-sortables .meta_box_columned {
+    -moz-column-count: 2;
+    -moz-columns: 2;
+    -webkit-columns: 2;
+    columns: 2;
+  }
+}
